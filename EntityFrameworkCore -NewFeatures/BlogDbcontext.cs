@@ -28,7 +28,7 @@ namespace EntityFrameworkCore__NewFeatures
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.; Database=BlogDb; User Id=sa; Password=Asd123456.");
+            optionsBuilder.UseSqlServer("Server=.; Database=BlogDb; User Id=sa; Password=******.");
             optionsBuilder.UseLoggerFactory(dbLoggerCategory);
             base.OnConfiguring(optionsBuilder);
         }
